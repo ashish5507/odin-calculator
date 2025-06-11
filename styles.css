@@ -1,0 +1,86 @@
+*{
+    flex-shrink: 1;
+    background-color: antiquewhite;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#body{
+    padding:4vh;
+    height: 60vh;
+    width: 20vw;
+    border: 5px black solid;
+    background-color: #575261;
+}
+
+#header{
+    text-align: center;
+}
+#footer{
+    display: flex;
+    justify-content: end;
+    margin-top: 10vh;
+    text-align: center;
+}
+#body{
+    border-radius:7px;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+}
+#display{
+    padding: 1vh;
+    height: 9vh;
+    border: 4px black solid;
+    background-color: #b1b4b6;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 3vh;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#buttons{
+    background-color: #575261;
+    justify-content: center;
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap:1vw;
+}
+.btn{
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    flex: 0 0 20%;
+    text-align: center;
+    border-radius: 8px;
+    border: 3px darkgrey solid;
+    font-size: 18px;
+}
+
+.btn:hover{
+    background-color: rgb(230, 186, 105);
+    color: black;
+}
+.del:hover{
+    background-color: rgb(226, 98, 98);
+    color: black;
+}
+.bcs:hover{
+    background-color: rgb(71, 247, 71);
+    color: blue;
+}
+.alg:hover{
+    background-color: rgb(96, 214, 175);
+    color: darkslategrey;
+}
+.equals:hover{
+    background-color: cadetblue;
+    color: black;
+}
