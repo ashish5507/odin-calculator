@@ -91,7 +91,7 @@ function operate(arr,operator){
         const o = operator[0];
         const ans = sub[o](ele1,ele2);
         if(ans === "Err"){
-            display.textContent = "Error";
+            display.textContent = "Urrrrraaa";
             return;
         }
 
